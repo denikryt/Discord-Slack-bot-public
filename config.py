@@ -11,8 +11,6 @@ SLACK_TOKEN = os.environ.get('SLACK_TOKEN')
 SIGNING_SECRET = os.environ.get('SIGNING_SECRET')
 TOKEN_DISCORD = os.environ.get('TOKEN_DISCORD')
 
-MONGO_DB = 'mongodb+srv://danilmirzoev:2tuGXMvdQZlFC515@hacklab-cluster.znyov.mongodb.net/?retryWrites=true&w=majority&appName=Hacklab-Cluster'
-
 SLACK_CHANNEL_GENERAL = os.environ.get('SLACK_CHANNEL_GENERAL')
 SLACK_CHANNEL_RANDOM = os.environ.get('SLACK_CHANNEL_RANDOM')
 SLACK_CHANNEL_DISCORD = os.environ.get('SLACK_CHANNEL_DISCORD')
